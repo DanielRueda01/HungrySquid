@@ -18,22 +18,22 @@ public class playerMOV : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector3.up);
+            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector2.up);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
-            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector3.down);
+            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector2.down);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
-            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector3.left);
+            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector2.left);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
-            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector3.right);
+            GetComponent<Rigidbody2D>().AddForce(8000 * Time.deltaTime * Vector2.right);
         }
     }
 
