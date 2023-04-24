@@ -5,7 +5,7 @@ using UnityEngine.UIElements;
 
 public class playerMOV : MonoBehaviour
 {
-
+    public playerMOV playermov;
     void Start()
     {
 
