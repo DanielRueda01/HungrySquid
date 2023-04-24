@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Pulpo
   - Water
   - UI
-  - 
+  - Enemigos
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: UIinterfaz
+    uniqueID: 1312085695
+    locked: 0
   - name: Background
     uniqueID: 2656648949
     locked: 0
